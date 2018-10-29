@@ -1,0 +1,31 @@
+[28-Oct-2018 21:31:03 UTC] PHP Fatal error:  Class 'common\models\UserQuery' not found in /home/ubuntu/workspace/rest-api/common/models/User.php on line 196
+[28-Oct-2018 21:31:03 UTC] PHP Stack trace:
+[28-Oct-2018 21:31:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/rest-api/frontend/web/index.php:0
+[28-Oct-2018 21:31:03 UTC] PHP   2. yii\base\Application->__construct() /home/ubuntu/workspace/rest-api/frontend/web/index.php:17
+[28-Oct-2018 21:31:03 UTC] PHP   3. yii\base\BaseObject->__construct() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/Application.php:206
+[28-Oct-2018 21:31:03 UTC] PHP   4. yii\base\Application->init() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/BaseObject.php:109
+[28-Oct-2018 21:31:03 UTC] PHP   5. yii\web\Application->bootstrap() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/Application.php:273
+[28-Oct-2018 21:31:03 UTC] PHP   6. yii\base\Application->bootstrap() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/web/Application.php:69
+[28-Oct-2018 21:31:03 UTC] PHP   7. yii\base\Module->getModule() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/Application.php:315
+[28-Oct-2018 21:31:03 UTC] PHP   8. yii\BaseYii::createObject() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/Module.php:427
+[28-Oct-2018 21:31:03 UTC] PHP   9. yii\di\Container->get() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/BaseYii.php:349
+[28-Oct-2018 21:31:03 UTC] PHP  10. yii\di\Container->build() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/di/Container.php:156
+[28-Oct-2018 21:31:03 UTC] PHP  11. ReflectionClass->newInstanceArgs() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/di/Container.php:383
+[28-Oct-2018 21:31:03 UTC] PHP  12. yii\base\Module->__construct() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/di/Container.php:383
+[28-Oct-2018 21:31:03 UTC] PHP  13. yii\base\BaseObject->__construct() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/Module.php:158
+[28-Oct-2018 21:31:03 UTC] PHP  14. yii\debug\Module->init() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/BaseObject.php:109
+[28-Oct-2018 21:31:03 UTC] PHP  15. yii\debug\Module->initPanels() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2-debug/src/Module.php:154
+[28-Oct-2018 21:31:03 UTC] PHP  16. yii\BaseYii::createObject() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2-debug/src/Module.php:182
+[28-Oct-2018 21:31:03 UTC] PHP  17. yii\di\Container->get() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/BaseYii.php:349
+[28-Oct-2018 21:31:03 UTC] PHP  18. yii\di\Container->build() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/di/Container.php:156
+[28-Oct-2018 21:31:03 UTC] PHP  19. ReflectionClass->newInstanceArgs() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/di/Container.php:383
+[28-Oct-2018 21:31:03 UTC] PHP  20. yii\base\BaseObject->__construct() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/di/Container.php:383
+[28-Oct-2018 21:31:03 UTC] PHP  21. yii\debug\panels\UserPanel->init() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/BaseObject.php:109
+[28-Oct-2018 21:31:03 UTC] PHP  22. yii\base\Component->__get() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/BaseObject.php:79
+[28-Oct-2018 21:31:03 UTC] PHP  23. yii\web\User->getIsGuest() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/Component.php:139
+[28-Oct-2018 21:31:03 UTC] PHP  24. yii\web\User->getIdentity() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/web/User.php:360
+[28-Oct-2018 21:31:03 UTC] PHP  25. yii\web\User->renewAuthStatus() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/web/User.php:192
+[28-Oct-2018 21:31:03 UTC] PHP  26. common\models\User::findIdentity() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/web/User.php:690
+[28-Oct-2018 21:31:03 UTC] PHP  27. yii\db\BaseActiveRecord::findOne() /home/ubuntu/workspace/rest-api/common/models/User.php:64
+[28-Oct-2018 21:31:03 UTC] PHP  28. yii\db\ActiveRecord::findByCondition() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/db/BaseActiveRecord.php:112
+[28-Oct-2018 21:31:03 UTC] PHP  29. common\models\User::find() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/db/ActiveRecord.php:174
