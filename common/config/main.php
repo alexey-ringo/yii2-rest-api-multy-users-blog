@@ -9,5 +9,13 @@ return [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+        //Добавили конфиг RBAC с одной дефолтной для всех ролью user
+        'authManager' => [
+            'class' => 'yii\rbac\PhpManager',
+            'itemFile' => '@common/rbac/items/items.php',
+            'assignmentFile' => '@common/rbac/items/assignments.php',
+            'ruleFile' => '@common/rbac/items/rules.php',
+            'defaultRoles' => ['user'],
+        ],
     ],
 ];

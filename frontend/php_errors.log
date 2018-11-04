@@ -29,3 +29,48 @@
 [28-Oct-2018 21:31:03 UTC] PHP  27. yii\db\BaseActiveRecord::findOne() /home/ubuntu/workspace/rest-api/common/models/User.php:64
 [28-Oct-2018 21:31:03 UTC] PHP  28. yii\db\ActiveRecord::findByCondition() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/db/BaseActiveRecord.php:112
 [28-Oct-2018 21:31:03 UTC] PHP  29. common\models\User::find() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/db/ActiveRecord.php:174
+[04-Nov-2018 22:15:19 UTC] PHP Fatal error:  Class 'Rbac' not found in /home/ubuntu/workspace/rest-api/frontend/views/users/view.php on line 16
+[04-Nov-2018 22:15:19 UTC] PHP Stack trace:
+[04-Nov-2018 22:15:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/rest-api/frontend/web/index.php:0
+[04-Nov-2018 22:15:19 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/rest-api/frontend/web/index.php:17
+[04-Nov-2018 22:15:19 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/Application.php:386
+[04-Nov-2018 22:15:19 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/web/Application.php:103
+[04-Nov-2018 22:15:19 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/Module.php:528
+[04-Nov-2018 22:15:19 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/Controller.php:157
+[04-Nov-2018 22:15:19 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/InlineAction.php:57
+[04-Nov-2018 22:15:19 UTC] PHP   8. frontend\controllers\UsersController->actionView() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/InlineAction.php:57
+[04-Nov-2018 22:15:19 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/rest-api/frontend/controllers/UsersController.php:41
+[04-Nov-2018 22:15:19 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/Controller.php:384
+[04-Nov-2018 22:15:19 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/View.php:156
+[04-Nov-2018 22:15:19 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/View.php:254
+[04-Nov-2018 22:15:19 UTC] PHP  13. require() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/View.php:336
+[04-Nov-2018 22:15:25 UTC] PHP Fatal error:  Class 'Rbac' not found in /home/ubuntu/workspace/rest-api/frontend/views/users/view.php on line 16
+[04-Nov-2018 22:15:25 UTC] PHP Stack trace:
+[04-Nov-2018 22:15:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/rest-api/frontend/web/index.php:0
+[04-Nov-2018 22:15:25 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/rest-api/frontend/web/index.php:17
+[04-Nov-2018 22:15:25 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/Application.php:386
+[04-Nov-2018 22:15:25 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/web/Application.php:103
+[04-Nov-2018 22:15:25 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/Module.php:528
+[04-Nov-2018 22:15:25 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/Controller.php:157
+[04-Nov-2018 22:15:25 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/InlineAction.php:57
+[04-Nov-2018 22:15:25 UTC] PHP   8. frontend\controllers\UsersController->actionView() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/InlineAction.php:57
+[04-Nov-2018 22:15:25 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/rest-api/frontend/controllers/UsersController.php:41
+[04-Nov-2018 22:15:25 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/Controller.php:384
+[04-Nov-2018 22:15:25 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/View.php:156
+[04-Nov-2018 22:15:25 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/View.php:254
+[04-Nov-2018 22:15:25 UTC] PHP  13. require() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/View.php:336
+[04-Nov-2018 22:15:35 UTC] PHP Fatal error:  Class 'Rbac' not found in /home/ubuntu/workspace/rest-api/frontend/views/users/view.php on line 16
+[04-Nov-2018 22:15:35 UTC] PHP Stack trace:
+[04-Nov-2018 22:15:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/rest-api/frontend/web/index.php:0
+[04-Nov-2018 22:15:35 UTC] PHP   2. yii\base\Application->run() /home/ubuntu/workspace/rest-api/frontend/web/index.php:17
+[04-Nov-2018 22:15:35 UTC] PHP   3. yii\web\Application->handleRequest() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/Application.php:386
+[04-Nov-2018 22:15:35 UTC] PHP   4. yii\base\Module->runAction() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/web/Application.php:103
+[04-Nov-2018 22:15:35 UTC] PHP   5. yii\base\Controller->runAction() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/Module.php:528
+[04-Nov-2018 22:15:35 UTC] PHP   6. yii\base\InlineAction->runWithParams() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/Controller.php:157
+[04-Nov-2018 22:15:35 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/InlineAction.php:57}() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/InlineAction.php:57
+[04-Nov-2018 22:15:35 UTC] PHP   8. frontend\controllers\UsersController->actionView() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/InlineAction.php:57
+[04-Nov-2018 22:15:35 UTC] PHP   9. yii\base\Controller->render() /home/ubuntu/workspace/rest-api/frontend/controllers/UsersController.php:41
+[04-Nov-2018 22:15:35 UTC] PHP  10. yii\base\View->render() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/Controller.php:384
+[04-Nov-2018 22:15:35 UTC] PHP  11. yii\base\View->renderFile() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/View.php:156
+[04-Nov-2018 22:15:35 UTC] PHP  12. yii\base\View->renderPhpFile() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/View.php:254
+[04-Nov-2018 22:15:35 UTC] PHP  13. require() /home/ubuntu/workspace/rest-api/vendor/yiisoft/yii2/base/View.php:336
